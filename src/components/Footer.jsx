@@ -1,6 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faInstagram, faSpotify, faTiktok, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import { SPOTIFY_ARTIST_URL } from '../config';
+import { publicAsset, SPOTIFY_ARTIST_URL } from '../config';
 import { socialLinks } from '../data/siteContent';
 
 export function Footer() {
@@ -8,7 +8,7 @@ export function Footer() {
     <footer className="site-footer">
       <div className="footer-inner">
         <a href="#top" className="footer-brand">
-          <img src="/images/marc-floor-logo-white.png" alt="" className="footer-logo" />
+          <img src={publicAsset('/images/marc-floor-logo-white.png')} alt="" className="footer-logo" />
           <span className="footer-brand-name">Marc Floor</span>
         </a>
         <div className="footer-socials">

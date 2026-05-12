@@ -1,4 +1,5 @@
 import { biographySections } from '../data/siteContent';
+import { publicAsset } from '../config';
 
 export function Biography() {
   return (
@@ -6,7 +7,7 @@ export function Biography() {
       <div className="mx-auto grid max-w-7xl items-start gap-10 px-5 sm:px-8 lg:grid-cols-[.94fr_1fr] lg:px-10">
         <div className="bio-image">
           <img
-            src="/images/marc-floor-bio.jpg"
+            src={publicAsset('/images/marc-floor-bio.jpg')}
             alt="Portret van Marc Floor"
             className="h-full w-full object-cover"
           />
@@ -28,4 +29,3 @@ export function Biography() {
     </section>
   );
 }
-

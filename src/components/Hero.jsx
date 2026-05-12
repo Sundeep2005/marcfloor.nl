@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlay } from '@fortawesome/free-solid-svg-icons';
 import { CalendarDaysIcon } from '@heroicons/react/24/outline';
+import { publicAsset } from '../config';
 
 export function Hero() {
   return (
@@ -14,7 +15,7 @@ export function Hero() {
           playsInline
           preload="auto"
         >
-          <source src="/videos/hero.mp4" type="video/mp4" />
+          <source src={publicAsset('/videos/hero.mp4')} type="video/mp4" />
         </video>
       </div>
       <div className="hero-shade" aria-hidden="true" />

@@ -1,3 +1,5 @@
+import { publicAsset } from '../config';
+
 export const navItems = [
   { label: 'Agenda', href: '#agenda' },
   { label: 'Biografie', href: '#biografie' },
@@ -6,29 +8,29 @@ export const navItems = [
 ];
 
 export const videoItems = [
-  { title: 'Kapitein', src: '/videos/kapitein.mp4', thumbnail: 'https://i.ytimg.com/vi/wXHdkD2DTvg/hqdefault.jpg' },
-  { title: 'Koud', src: '/videos/koud.mp4', thumbnail: 'https://i.ytimg.com/vi/PhpjycoNXdE/hqdefault.jpg' },
-  { title: 'Fantasie', src: '/videos/fantasie.mp4', thumbnail: 'https://i.ytimg.com/vi/Of5ha6L7054/hqdefault.jpg' },
-  { title: 'Zeventien', src: '/videos/zeventien.mp4', thumbnail: 'https://i.ytimg.com/vi/STLN5fJAyxQ/hqdefault.jpg' },
-  { title: 'Wat Blijft Er Over', src: '/videos/wat-blijft-er-over.mp4', thumbnail: 'https://i.ytimg.com/vi/EGiykcXQUhw/hqdefault.jpg' },
-  { title: 'Melkweg Aftermovie', src: '/videos/melkweg-aftermovie.mp4', thumbnail: 'https://i.ytimg.com/vi/Wj3yezFP2ZY/hqdefault.jpg' },
+  { title: 'Kapitein', src: publicAsset('/videos/kapitein.mp4'), thumbnail: 'https://i.ytimg.com/vi/wXHdkD2DTvg/hqdefault.jpg' },
+  { title: 'Koud', src: publicAsset('/videos/koud.mp4'), thumbnail: 'https://i.ytimg.com/vi/PhpjycoNXdE/hqdefault.jpg' },
+  { title: 'Fantasie', src: publicAsset('/videos/fantasie.mp4'), thumbnail: 'https://i.ytimg.com/vi/Of5ha6L7054/hqdefault.jpg' },
+  { title: 'Zeventien', src: publicAsset('/videos/zeventien.mp4'), thumbnail: 'https://i.ytimg.com/vi/STLN5fJAyxQ/hqdefault.jpg' },
+  { title: 'Wat Blijft Er Over', src: publicAsset('/videos/wat-blijft-er-over.mp4'), thumbnail: 'https://i.ytimg.com/vi/EGiykcXQUhw/hqdefault.jpg' },
+  { title: 'Melkweg Aftermovie', src: publicAsset('/videos/melkweg-aftermovie.mp4'), thumbnail: 'https://i.ytimg.com/vi/Wj3yezFP2ZY/hqdefault.jpg' },
 ];
 
 export const photoItems = [
   {
-    image: '/images/marc-floor-vrienden.png',
+    image: publicAsset('/images/marc-floor-vrienden.png'),
     position: 'center 35%',
   },
   {
-    image: '/images/marc-floor-speelt-gitaar.jpg',
+    image: publicAsset('/images/marc-floor-speelt-gitaar.jpg'),
     position: 'center',
   },
   {
-    image: '/images/marc-floor-live-zwart-wit.jpg',
+    image: publicAsset('/images/marc-floor-live-zwart-wit.jpg'),
     position: 'center 34%',
   },
   {
-    image: '/images/marc-floor-studio.jpg',
+    image: publicAsset('/images/marc-floor-studio.jpg'),
     position: 'center 42%',
   },
 ];
@@ -72,4 +74,3 @@ export const socialLinks = {
   tiktok: 'https://www.tiktok.com/@marcfloor/',
   youtube: 'https://www.youtube.com/@marcfloormusic',
 };
-

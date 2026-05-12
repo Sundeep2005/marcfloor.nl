@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
 import { navItems } from '../data/siteContent';
+import { publicAsset } from '../config';
 
 export function SiteHeader() {
   const [hasScrolled, setHasScrolled] = useState(false);
@@ -18,7 +19,7 @@ export function SiteHeader() {
     <header className={`site-header ${hasScrolled ? 'is-scrolled' : ''}`}>
       <div className="site-header-inner">
         <a href="#top" className="site-brand">
-          <img src="/images/marc-floor-logo-white.png" alt="" className="site-brand-logo" />
+          <img src={publicAsset('/images/marc-floor-logo-white.png')} alt="" className="site-brand-logo" />
           <span className="site-brand-name">Marc Floor</span>
         </a>
         <nav className="site-nav site-nav-desktop" aria-label="Hoofdnavigatie">
@@ -39,4 +40,3 @@ export function SiteHeader() {
     </header>
   );
 }
-
