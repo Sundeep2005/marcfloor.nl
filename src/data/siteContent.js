@@ -11,8 +11,8 @@ export const videoItems = [
   { title: 'Kapitein', src: publicAsset('/videos/kapitein.mp4'), thumbnail: 'https://i.ytimg.com/vi/wXHdkD2DTvg/hqdefault.jpg' },
   { title: 'Koud', src: publicAsset('/videos/koud.mp4'), thumbnail: 'https://i.ytimg.com/vi/PhpjycoNXdE/hqdefault.jpg' },
   { title: 'Fantasie', src: publicAsset('/videos/fantasie.mp4'), thumbnail: 'https://i.ytimg.com/vi/Of5ha6L7054/hqdefault.jpg' },
-  { title: 'Zeventien', src: publicAsset('/videos/zeventien.mp4'), thumbnail: 'https://i.ytimg.com/vi/STLN5fJAyxQ/hqdefault.jpg' },
-  { title: 'Wat Blijft Er Over', src: publicAsset('/videos/wat-blijft-er-over.mp4'), thumbnail: 'https://i.ytimg.com/vi/EGiykcXQUhw/hqdefault.jpg' },
+  { title: 'Parkje Biertje Vrienden', src: publicAsset('/videos/parkje-biertje-vrienden.mp4'), thumbnail: 'https://i.ytimg.com/vi/yGlbHVjUfLI/maxresdefault.jpg' },
+  { title: 'Zij Heeft Alles', src: publicAsset('/videos/wat-blijft-er-over.mp4'), thumbnail: 'https://i.ytimg.com/vi/EGiykcXQUhw/hqdefault.jpg' },
   { title: 'Melkweg Aftermovie', src: publicAsset('/videos/melkweg-aftermovie.mp4'), thumbnail: 'https://i.ytimg.com/vi/Wj3yezFP2ZY/hqdefault.jpg' },
 ];
 
