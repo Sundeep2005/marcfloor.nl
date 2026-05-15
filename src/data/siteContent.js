@@ -21,7 +21,7 @@ export const latestRelease = {
   title: 'Parkje Biertje Vrienden',
   artist: 'Marc Floor & Snelle',
   cover: 'https://cdn-images.dzcdn.net/images/cover/03b4430a01862ca5d5e138b7374d501b/1000x1000-000000-80-0-0.jpg',
-  spotify: 'https://open.spotify.com/search/Parkje%20Biertje%20Vrienden%20Marc%20Floor%20Snelle',
+  spotify: 'https://open.spotify.com/track/3u5ktXVlv9HwRKLd0RLUUj?si=1bcf78eaaf94487d',
   youtube: 'https://www.youtube.com/watch?v=yGlbHVjUfLI',
 };
 
