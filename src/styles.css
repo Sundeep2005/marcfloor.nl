@@ -1097,7 +1097,12 @@ code {
 .spotify-queue-list {
   max-height: min(27rem, calc(100vh - 12rem));
   overflow: auto;
+  scrollbar-width: none;
   padding: .35rem;
+}
+
+.spotify-queue-list::-webkit-scrollbar {
+  display: none;
 }
 
 .spotify-queue-list button {
