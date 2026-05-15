@@ -16,6 +16,15 @@ export const videoItems = [
   { title: 'Melkweg Aftermovie', src: publicAsset('/videos/melkweg-aftermovie.mp4'), thumbnail: 'https://i.ytimg.com/vi/Wj3yezFP2ZY/hqdefault.jpg' },
 ];
 
+export const latestRelease = {
+  label: 'Nieuwste release',
+  title: 'Parkje Biertje Vrienden',
+  artist: 'Marc Floor & Snelle',
+  cover: 'https://cdn-images.dzcdn.net/images/cover/03b4430a01862ca5d5e138b7374d501b/1000x1000-000000-80-0-0.jpg',
+  spotify: 'https://open.spotify.com/search/Parkje%20Biertje%20Vrienden%20Marc%20Floor%20Snelle',
+  youtube: 'https://www.youtube.com/watch?v=yGlbHVjUfLI',
+};
+
 export const photoItems = [
   {
     image: publicAsset('/images/marc-floor-vrienden.png'),
